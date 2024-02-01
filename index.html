@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel= "stylesheet" href ="style.css">
+    <script src="https://kit.fontawesome.com/fb47c74475.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+        
+            <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Codependent</p>
+            <h1>Hi, I am <span>Rerimoi</span><br>from Kenya </h1>
+             
+        </div>
+    </div>
+</div>
+
+   <!-- -----------about---------- --> 
+
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src = "images/user.png">
+                </div>
+            <div class="about-col-2">
+                <h1> <div class="sub-title">About Rerimoi</h1>
+                    <p>Passionate IT Graduate willing to exceed his potential in Software Development as well maximize his potential in acquiring 
+                        the related skills and experience and be an asset in this very dynamic field.</p> 
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills and Hobbies')">Skills and Hobbies</p>
+                            <p class="tab-links" onclick="opentab('Educational Background')">Educational Background</p>
+                            <p class="tab-links"onclick="opentab('Career Experience')">Career Experiences</p>
+                            
+                </div>
+                <div class="tab-contents active-tab" id="skills and Hobbies">
+                    <ul>
+                        <li><span>Web Development</span><br>Fresh Understanding at developing Web Applications using Java</li>
+                        <li><span>Mobile App Development</span><br>Passionate at building Android Apps using Kotlin Language</li>
+                        <li><span>Photography</span><br> Passionate Photographer and skilled at Video editing</li>
+                        <li><span>Football</span><br>Amazing prospect in Football</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Educational Background">
+                    <ul>
+                        <li><span>2019-2022</span><br>Bachelor Degree - Strathmore University</li>
+                        <li><span>2014 - 2017</span><br>KCSE - Nakuru High School</li>
+                        <li><span>2006 - 2013</span><br>KCPE - Visa Oshwal Primary School</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id ="Career Experience">
+                    <ul>
+                        <li><span>May 2022 - Current</span><br>Customer Retention Advisor - NCBA Bank PLC</li>
+                        <li><span>Jan 2021 - May 2021</span><br>Pension Management Intern - CIC Group Kenya</li>
+                        <li><span>Jan 2020 - March 2020</span><br>Volunteer - Red Cross Kenya</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------services---------- --> 
+
+<div id="services">
+    <div class="container">
+        <h1> <div class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                    <p>Designed a Personal portfolio</p>
+                    <a href="#">Learn more</a>
+    </div>
+    <div>
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h2>Mobile Application</h2>
+            <p>Working on completing Fundi Application projecet to help Social workers get jobs at click of a phone</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-camera-retro"></i>
+            <h2>Photography/ Videography</h2>
+                <p>Part-time activity that I enjoy doing. Below is a link to my past work</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------Portfolio---------- --> 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/mobileApp.png">
+                    <div class="layer">
+                        <h3>Fundi App</h3>
+                        <p>An application designed to assist Handymen in finding solutions to opportunities at the click of a button</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>   
+                    </div>
+                </div>
+                
+                    <div class="work">
+                        <img src="images/webDev.png">
+                        <div class="layer">
+                            <h3>Mzinga Advert</h3>
+                            <p>A website designed to advertise a honey product directly from Baringo county - Home of Honey</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>   
+                        </div>
+                    </div>
+                    
+                        <div class="work">
+                            <img src="images/vidEdit.png ">
+                            <div class="layer">
+                                <h3>Taidy's Hotel website</h3>
+                                <p>A hotel website used to enable clients book facilities such as rooms directly from page</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>   
+                            </div>
+                        </div>
+            </div>
+          <a href="#" class="btn">See more</a>
+          
+    </div>
+</div>
+
+<!------------Contact---------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>rerimoii22@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>254 720 712 988</p>
+            <div class="div social-icons">
+                <a href="https://web.facebook.com/tito.rerimoi"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/tito-rotich-0a11b7242/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/TitoRerimoi"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="images/Tito_Rotich_cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name = "Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span><div id="msg"></div></span>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Rerimoi </p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"; 
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx5DEtb5DZG7-Y-65L5iGQyE6-R_XWd701_4uKX7-BMCQsqa7D7asLg87kmz7CBn3Vc/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   
+</body>
+
+</html>
