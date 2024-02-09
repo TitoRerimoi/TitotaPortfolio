@@ -163,6 +163,7 @@ nav ul li a:hover::after{
     font-weight: 300;
     border-radius: 30px;
     transition: background 0.5s, transform 0.5s;
+    align-items: center;
 
 }
 .service-list div i{
@@ -175,7 +176,6 @@ nav ul li a:hover::after{
     color: #1a61ff;
     font-weight: 500;
     margin-bottom: 15px;
-
 }
 
 .service-list p{
@@ -188,7 +188,9 @@ nav ul li a:hover::after{
     color: #fff;
     font-size: 16px;
     margin-top: 20px;
+    text-align: center;
     display: inline-block;
+    
 }
 
 .service-list div:hover{
