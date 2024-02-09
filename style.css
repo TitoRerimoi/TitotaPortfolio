@@ -179,12 +179,10 @@ nav ul li a:hover::after{
 }
 
 .service-list p{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 .service-list div a{
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
     color: #fff;
     font-size: 16px;
     margin-top: 20px;
