@@ -243,10 +243,8 @@ nav ul li a:hover::after{
 .layer h3{
     font-weight: 500;
     margin-bottom: 20px;
-    font-family: 'Times New Roman', Times, serif;
 }
 .layer p{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
 
