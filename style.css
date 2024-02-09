@@ -66,7 +66,7 @@ nav ul li a:hover::after{
 
 }
 .header-text h1{
-    font-size: 60px;
+    font-size: 45px;
     margin-top: 20px;
 } 
 .header-text h1 span{
@@ -235,7 +235,7 @@ nav ul li a:hover::after{
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     transition: height 0.5s;
 }
 .layer h3{
