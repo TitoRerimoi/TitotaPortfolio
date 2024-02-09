@@ -38,6 +38,7 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    
 }
 nav ul li a {
     color: #fff;
@@ -83,6 +84,7 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    line-height: 1.5;
 }
 .about-col-1{
     flex-basis: 35%;
@@ -157,7 +159,7 @@ nav ul li a:hover::after{
 .service-list div{
     background: #262626;
     padding: 40px;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 300;
     border-radius: 30px;
     transition: background 0.5s, transform 0.5s;
@@ -165,18 +167,26 @@ nav ul li a:hover::after{
 }
 .service-list div i{
     font-size: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;;
 }
 .service-list div h2{
-    font-size: 30px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1a61ff;
     font-weight: 500;
     margin-bottom: 15px;
 
 }
+
+.service-list p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
 .service-list div a{
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
     color: #fff;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 20px;
     display: inline-block;
 }
@@ -231,6 +241,11 @@ nav ul li a:hover::after{
 .layer h3{
     font-weight: 500;
     margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.layer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
 
 .layer a{
