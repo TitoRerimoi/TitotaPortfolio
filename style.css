@@ -48,12 +48,12 @@ nav ul li a {
 }
 nav ul li a::after{
     content: '';
-    width: 10;
+    width: 0;
     height: 3px;
     background: #1a61ff;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -6px;
     transition: 0.5s;
 
 }
@@ -73,7 +73,7 @@ nav ul li a:hover::after{
     color: #1a61ff;
 
 }
-/* ----------- my services ------------ */
+/* ----------- about ------------ */
 
 #about{
     padding: 80px 0;
@@ -145,7 +145,7 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/*--------------My Work---------------*/
+/*--------------Services---------------*/
 #services{
     padding: 30px 0;
 }
@@ -171,8 +171,8 @@ nav ul li a:hover::after{
     margin-bottom: 30px;;
 }
 .service-list div h2{
-    font-size: 20px;
-    font-family: sans-serif;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
     color: #1a61ff;
     font-weight: 500;
     margin-bottom: 15px;
@@ -196,7 +196,7 @@ nav ul li a:hover::after{
     transform: translateY(-10px);
 }
 
-/*--------------Projects Underway---------------*/
+/*--------------Portfolio---------------*/
 
 #portfolio{ 
     padding: 50px 0;
