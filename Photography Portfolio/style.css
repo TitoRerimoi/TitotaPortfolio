@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-
 :root{
     --text-dark: #171717;
     --text-light: #525252;
@@ -74,9 +73,10 @@ body{
 body{
     font-family: "Montserrat", sans-serif;
 }
+
 .header{
     min-height: 600px;
-    background-image: radial-gradient(rgba(255,255,255,0), rgba(0,0,0,.9))
+    background-image: radial-gradient(rgba(255,255,255,0), rgba(0,0,0,.9)),
     url("imgs/background.png");
     background-position: center center;
     background-size: cover;
@@ -172,5 +172,9 @@ nav{
         flex-direction: row;
         justify-content: space-between;
         background-color: transparent;
+    }
+
+    .nav__links .nav__logo img{
+        max-width: 150px;
     }
 }
