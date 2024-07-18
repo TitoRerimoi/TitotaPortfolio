@@ -145,3 +145,32 @@ nav{
 .nav__links a:hover{
     border-color: var(--white);
 }
+
+@media (width > 768px){
+    .header{
+        min-height: 650px;
+    }
+
+    nav{
+        padding: 2rem 1rem;
+        position: static;
+        max-width: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav__header{
+        display: none;
+    }
+
+    .nav__links{
+        padding: 0;
+        width: 100%;
+        position: static;
+        transform: none;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+}
