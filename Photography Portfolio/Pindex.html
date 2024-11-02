@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel= "stylesheet" href ="style.css">
+    <script src="https://kit.fontawesome.com/fb47c74475.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+        
+            <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">Know More</a></li>
+            <li><a href="#services">Previous Projects</a></li>
+            <li><a href="#portfolio">Upcoming Work</a></li>
+            <li><a href="#contact">Contact Info</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Codependent</p>
+            <h1>Hi, I am <span>Rerimoi</span><br>and I am Kenyan </h1>
+             
+        </div>
+    </div>
+</div>
+
+   <!-- -----------about---------- --> 
+
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src = "images/user.png">
+                </div>
+            <div class="about-col-2">
+                <h1> <div class="sub-title">Who is Rerimoi</h1>
+                    <p>An IT enthusiast seeking to grow in every aspect of this very dynamic field of Information Technology.
+                        He enjoys learning different programming languages and his <span>dream</span>is to collaborating with teams to turn ideas into real-time projects. 
+                        <br>He is willing to learn and keep up with the latest tech trends. His goal is to create useful and effective solutions that make a difference..</p> 
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"onclick="opentab('Career Experience')">Career Experience</p>
+                            <p class="tab-links" onclick="opentab('Educational Background')">Educational Background</p>
+                            <p class="tab-links" onclick="opentab('skills and Hobbies')">Skills and Hobbies</p>                        
+                           
+                            
+                </div>
+                <div class="tab-contents active-tab" id="skills and Hobbies">
+                    <ul>
+                        <li><span>Web Development</span><br>Fresh Understanding at developing Web Applications using HTML, CSS and Javascript as well as SQL.</li>
+                        <li><span>Mobile App Development</span><br>Solid understanding of the full Mobile Development Lifecycle with hands-on expertise with Kotlin language and SDK Versions.</li>
+                        <li><span>Photography</span><br> Passionate Photographer and skilled at Video editing using Lightroom and Photoshop.</li>
+                        <li><span>Football</span><br>During my free time, I spend it in the field enjoying what I do best.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Educational Background">
+                    <ul>
+                        <li><span>2019-2022</span><br>Bachelor Degree in Business and Information Technology - Strathmore University</li>
+                        <li><span>2014 - 2017</span><br>Nakuru High School- KCSE Certificate</li>
+                        <li><span>2006 - 2013</span><br>Visa Oshwal Primary School - KCPE Certificate </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id ="Career Experience">
+                    <ul>
+                        <li><span>May 2022 - Current</span><br>Pioneering a role as Customer Retention Advisor at NCBA Bank PLC</li>
+                        <li><span>Jan 2021 - May 2021</span><br>Internship as Pension Intern at CIC Group Kenya</li>
+                        <li><span>Jan 2020 - March 2020</span><br>Volunteer at Red Cross Kenya</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------My Work---------- --> 
+
+<div id="services">
+    <div class="container">
+        <h1> <div class="sub-title">My Work</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                    <p>Developed my own website portfolio</p>
+                    <a href="https://github.com/TitoRerimoi/TitotaPortfolio">Learn more</a>
+    </div>
+    <div>
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h2>Mobile Application</h2>
+            <p>Developing a Fundi mobile application project to assist skilled handymen get real-time jobs at the click of a button</p>
+            <a href="https://github.com/TitoRerimoi/Fundi-App">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-solid fa-camera-retro"></i>
+            <h2>Photography/ Videography</h2>
+                <p>Part-time activity that keeps me active and creative during my free time.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------Projects Underway---------- --> 
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects Underway</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/mobileApp.png">
+                    <div class="layer">
+                        <h3>Fundi App</h3>
+                        <p>An application designed to assist Handymen in finding solutions to Job opportunities at the click of a button</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>   
+                    </div>
+                </div>
+                
+                    <div class="work">
+                        <img src="images/webDev.png">
+                        <div class="layer">
+                            <h3>Homeward Africa Solutions</h3>
+                            <p>Currently developing a website to assist individuals living abroad with projects in their home country</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>   
+                        </div>
+                    </div>
+                
+                        <div class="work">
+                            <img src="images/vidEdit.png ">
+                            <div class="layer">
+                                <h3>Media Management Website </h3>
+                                <p>A Social website to assists customers engage with hotel facilities</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>   
+                            </div>
+                        </div>
+            </div>
+          <a href="#" class="btn">See more</a>
+          
+    </div>
+</div>
+
+<!------------Contact---------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>rerimoii22@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>254 720 712 988</p>
+            <div class="div social-icons">
+                <a href="https://web.facebook.com/tito.rerimoi"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/tito-rotich-0a11b7242/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/TitoRerimoi"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="images/Tito_Rotich_cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name = "Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span><div id="msg"></div></span>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Rerimoi </p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"; 
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx5DEtb5DZG7-Y-65L5iGQyE6-R_XWd701_4uKX7-BMCQsqa7D7asLg87kmz7CBn3Vc/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   
+</body>
+
+</html>
